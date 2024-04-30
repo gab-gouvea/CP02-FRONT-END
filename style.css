@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Karma";
+    color: #FFFFFF;
+}
+
+:root {
+    --cor1: #F2CDA0;
+    --cor2: #730202;
+}
+
+body {
+    background-color: #333;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    
+    padding: 2rem 0rem;
+    margin-bottom: 3rem;
+    animation: animateBox 2s ease-in-out infinite alternate;
+}
+
+span {
+    font-size: 2rem;
+    color: var(--cor1);
+
+}
+    
+@keyframes animateBox {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #f2cda03a;
+    }
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    color: var(--cor1);
+}
+
+a:hover {
+    background-color: #161616;
+}
+
+input {
+    color: #333;
+    text-align: center;
+}
+
+input::placeholder {
+    color: var(--cor2);
+}
+
+label {
+    display: block;
+}
+
+button {
+    background-color: #161616;
+    padding: 0.2rem 1rem;
+    border: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+select {
+    color: var(--cor2);
+}
+
+option {
+    color: var(--cor2);
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes | Vinheria Agnello</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Se tiver um arquivo CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <div class="header-container">
+                <span class="">Vinheria Agnello</span>
+                <nav>
+                    <ul class="">
+                        <li class="">
+                            <a href="cabernet.html">Cabernet</a>
+                        </li>
+                        <li class="">
+                            <a href="index.html">Vinhos</a>
+                        </li>
+                        <li class="">
+                            <a href="loginpage.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        <div class="main-container">
+        <div class="container">
+            <h1 class="">Detalhes do Vinho</h1>
+            <h2 class="">Cabernet Sauvignon</h2>
+            
+            <div class="informacoes">
+                <h3 class="text-2xl">Descrição</h3>
+                <p id="descricao">O Cabernet Sauvignon é um dos vinhos tintos mais populares e reconhecidos em todo o mundo. Conhecido por seu sabor intenso e notas de frutas escuras como cassis, amoras e cerejas, ele também tem características de taninos firmes e potencial de envelhecimento. Comumente envelhecido em barris de carvalho, o que adiciona notas de baunilha e especiarias.
+                </p>
+            </div>
+            
+            <div class="caracteristicas">
+                <h3 class="text-2xl">Características do Vinho</h3>
+                <ul>
+                    <li>Região de origem: Bordeaux, França</li>
+                    <li>Graduação alcoólica: 13.5% - 14.5%</li>
+                    <li>Cor: Vermelho escuro, quase roxo</li>
+                    <li>Notas de sabor: Frutas escuras, tabaco, carvalho</li>
+                    <li>Combinando com: Carnes vermelhas, queijos fortes, massas com molho vermelho</li>
+                </ul>
+            </div>
+            
+            <div class="curiosidades">
+                <h3 class="">Curiosidades</h3>
+                <p>
+                    O Cabernet Sauvignon é uma das variedades de uva mais cultivadas em todo o mundo. Sua origem está 
+                    no cruzamento entre Cabernet Franc e Sauvignon Blanc, e é uma das uvas principais dos blends de Bordeaux.
+                </p>
+            </div>
+            <label for="qtd">Quantidade:</label>
+                    <input
+                        placeholder="Quantidade de garrafas"
+                        type="number"
+                        id="qtd"
+                        min="0"
+                        class=""
+                    />
+                    <button onclick="comprar()" class="">Comprar</button>
+                    <!-- Cupom -->
+                    <section class="cupom">
+                        <label for="cupom">Cupom: </label>
+                        <input type="text" id="cupom" class="" placeholder="Cupom de desconto" >
+                        <button class="" onclick="cupom()">Cupom</button>
+                    </section>
+                    <!-- Total -->
+                <section class="total">
+                    <h2>Total</h2>
+                    <p id="total"></p>
+                </section>
+
+                <div class="acoes">
+                <button id="voltar-btn" class="" onclick="window.location.href='home.html'">Voltar</button>
+                <button id="comprar-btn" class="">Comprar</button>
+                </div>
+                <div class="">
+                    <h1>Sugestões de Comida:</h1>
+                    <select id="vinho" onchange="paginaVinho(this.value)" class="">
+                        <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
+                        <option value="Chardonnay">Chardonnay</option>
+                        <option value="Merlot">Merlot</option>
+                    </select>
+                <p id="sugestoes" class=""></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
