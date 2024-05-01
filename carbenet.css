@@ -75,6 +75,7 @@ input {
 
 input::placeholder {
     color: var(--cor2);
+    
 }
 
 label {
