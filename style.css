@@ -27,7 +27,7 @@ body {
 
 .main-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -104,19 +104,19 @@ h1 {
 
 section.sobre {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    padding: 30px ;
+    padding-left: 6rem;
 }
 
 div.caracteristicas{
-    padding-top: 2rem;
+    padding: 2rem 0px;
 }
 
 img {
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
 }
 
 section.finalizar {
@@ -124,7 +124,14 @@ section.finalizar {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem
+    padding: 2rem;
 }
 
+strong {
+    color: var(--cor1);
+    display: block;
+}
 
+div.informacoes {
+    padding-top: 4rem;
+}
