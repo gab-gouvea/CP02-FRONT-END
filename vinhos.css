@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Karma";
+    
+}
+
+:root {
+    --cor1: #F2CDA0;
+    --cor2: #730202;
+}
+
+body {
+    background-color: #333;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header {
+    
+    padding: 2rem 0rem;
+    margin-bottom: 3rem;
+    animation: animateBox 2s ease-in-out infinite alternate;
+}
+
+span {
+    font-size: 2rem;
+    color: var(--cor1);
+
+}
+    
+@keyframes animateBox {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #f2cda03a;
+    }
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    color: var(--cor1);
+}
+
+a:hover {
+    background-color: #161616;
+}
+
+input {
+    color: #333;
+    text-align: center;
+}
+
+input::placeholder {
+    color: var(--cor2);
+}
+
+label {
+    display: block;
+}
+
+button {
+    background-color: #161616;
+    padding: 0.2rem 1rem;
+    border: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+select {
+    color: var(--cor2);
+}
+
+option {
+    color: var(--cor2);
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+section.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px ;
+}
+
+div.caracteristicas{
+    padding-top: 2rem;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+section.finalizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem
+}
+
+
+button:hover {
+    background-color: #3498db; 
+    border-radius: 40px; 
+    cursor: pointer; 
+    transition: 3s;
+  }
+#wines{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 32px; 
+    justify-content: space-between;
+  }
+  
+  
+  .wine {
+    width: 120%; 
+    max-width: 300px; 
+    text-align: center; 
+    background: gray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; 
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+    color: rgb(0, 0, 0);
+  }
+  
+
+  .wine img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+
+  .wine:hover {
+    transform: scale(1.15); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    background-color: black;
+    color: white;
+    
+  }
+
+  @media (min-width: 768px) {
+    .wine-section {
+      flex-direction: row; 
+    }
+  }
