@@ -133,11 +133,6 @@ strong {
     display: block;
 }
 
-<<<<<<< Updated upstream:carbenet.css
-div.informacoes {
-    padding-top: 4rem;
-}
-=======
 button:hover {
     background-color: #3498db; 
     border-radius: 40px; 
@@ -148,4 +143,3 @@ button:hover {
 
 
   
->>>>>>> Stashed changes:style.css
