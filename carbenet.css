@@ -29,6 +29,7 @@ body {
     display: flex;
     max-width: 1600px;
     margin: auto;
+    color: #FFFFFF;
 }
 
 header {
