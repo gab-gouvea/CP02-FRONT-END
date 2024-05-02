@@ -6,7 +6,7 @@ David Gabriel Gomes Fernandes #556020
 Denise Senise #5556006 
 Gabriel Gouveia Marques de Oliveira #555528 
 Miguel Kapicius Caires #556198 
-hiago Ferreira Oliveira #555608
+Thiago Ferreira Oliveira #555608
 
 # Checkpoint 2 - Front-End Design
 
