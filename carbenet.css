@@ -54,11 +54,6 @@ span {
     }
 }
 
-ul {
-    display: flex;
-    gap: 2rem;
-}
-
 a {
     padding: 0.3rem 1rem;
     border-radius: 10px;
@@ -113,7 +108,15 @@ section.sobre {
 }
 
 div.caracteristicas{
-    padding: 2rem 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    margin-left: -7rem;
+}
+
+tr {
+    display: flex;
+    gap: 0.5rem;
 }
 
 img {
