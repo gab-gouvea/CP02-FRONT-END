@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: "Karma";
-    color: #FFFFFF;
+    
 }
 
 :root {
@@ -134,6 +134,13 @@ strong {
     display: block;
 }
 
-div.informacoes {
-    padding-top: 4rem;
-}
+button:hover {
+    background-color: #3498db; 
+    border-radius: 40px; 
+    cursor: pointer; 
+    transition: 3s;
+  }
+
+
+
+  
