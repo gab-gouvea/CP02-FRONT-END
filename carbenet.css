@@ -18,7 +18,7 @@ body {
 }
 
 .header-container {
-    max-width: 1200px;
+    padding: 0 7rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -32,8 +32,11 @@ body {
 
 }
 
+ul {
+    display: flex;
+}
+
 header {
-    
     padding: 2rem 0rem;
     margin-bottom: 3rem;
     animation: animateBox 2s ease-in-out infinite alternate;
